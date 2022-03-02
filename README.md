@@ -10,7 +10,7 @@ There are a number of mines randomly placed under certain cells.
 The user can reveal a cell by left-clicking.  
 If the cell contains a mine, the user loses the game.  
 Otherwise, the cell will be labeled with the number of adjacent mines.
-If the revealed cell has no adjacent mines, it will have no label, and "flood" in
+If the revealed cell has no adjacent mines, it will have no label, and will "flood" in
 each direction, revealing adjacent mines.  
 The flooding will continue until it reaches a cell with an adjacent mine.  
 If a user suspects a mine is under an un-revealed cell, they can place a flag
